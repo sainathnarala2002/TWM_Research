@@ -1,0 +1,48 @@
+/* LandingPage.css */
+body {
+    background-color: #4442b4;
+    
+}
+
+.card {
+    background-color: #0d0b8cb7;
+    color: #fff;
+}
+
+h2 {
+    color: #fff;
+}
+
+/* .form-control {
+    background-color: #1b1a63;
+    color: #fff;
+    border: none;
+  } */
+
+.form-control::placeholder {
+    color: #bfbfbf;
+}
+
+.btn-success {
+    background-color: #28a745;
+    border: none;
+}
+
+footer {
+    font-size: 0.9rem;
+}
+
+.text-warning {
+    color: #ffc107;
+}
+
+.alert ul {
+    list-style-type: disc; /* Use bullet points */
+    padding-left: 20px; /* Add some padding for better visibility */
+    font-size: small;
+  }
+  
+  .alert li {
+    word-wrap: break-word; /* Allow long words to break */
+    margin-bottom: 5px; /* Add spacing between list items */
+  }
