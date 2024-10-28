@@ -76,7 +76,7 @@ const LandingPage = () => {
   };
 
   return (
-      <div className="container-fluid shadow rounded pb-1">
+      <div className="container-fluid text-white shadow rounded pb-1">
         <div className="card m-5 p-4">
         <div className="row d-flex justify-content-center">
           {/* Left Column - 6 */}
@@ -205,7 +205,11 @@ const LandingPage = () => {
             </form>
           </div>
         </div>
+
         </div>
+        <footer className="text-center mt-4">
+          <p> <a href="http://www.twmresearchalert.com"> twmresearchalert.com </a> © Copyright 2024. All rights reserved.</p>
+        </footer>
       </div>
   );
 };
